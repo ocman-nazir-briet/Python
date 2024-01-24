@@ -75,10 +75,16 @@ print("---------------Accessing from Class Names-----------------")
 print(Person.printer(insta))
 print(Student.printer(insta))
 print(Topper.printer(insta))
-    
-    
-    
-    
-    
-    
-    
+
+# Multiple Inheritence
+class Passed(Topper, Student):
+    def __init__(self, name, roll, marks, grade, position, passed):
+        Topper.__init__(self, name, roll, marks, grade, position)
+        Student.__init__(self, name, roll, marks, grade)
+        self.passed = passed
+        
+    def printer(self):
+        return f"{self.passed}"
+        
+instanc = Passed("usman nazir", 314, 86, 'A', "First", "yes")
+print(instanc.printer())
