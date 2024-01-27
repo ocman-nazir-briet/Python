@@ -1,6 +1,6 @@
 Django:
 ------------------------------
-asgi vs wsgi
+ASGI vs WSGI
 prefetech and select related
 custom middlewares
 custom decorators
