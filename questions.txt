@@ -1,0 +1,99 @@
+Ssl, tcp, dcp, http, https, http1, 2,3, ports, web sockets
+Csrf token vs session csrf use in api
+Casha
+Mvt structure which is better mvt mvc
+Memory management
+Corn
+Deployment method
+Web servers and application servers (nginx)
+Docker
+Db indexing in detail
+Select distent city from studend and teacher both table (union will be used)
+Item search from large data how to optimize
+Code optimization
+0.1+0.2==0.3 make it true (big will be used)
+Cdn hows works
+Css files handle in cashe how to use new file with cashe clear
+///////////////////////////////////////////////////////////////////////////////
+Pg admin with docker
+Postgres with docker
+Django mail admin
+monday.com
+Slake
+Nlp library
+Microsoft Library
+Google Library
+Appachi office 
+Clickup
+/////////////////////////////////////////////////////////////////////////////
+Lamda
+Multiple treads
+Decorator
+Oauth 2
+SSL
+List vs array
+Regural expression
+RegEx
+Views db
+Memory management
+Time frequency to fine item from list with index
+Import csv file memory management
+A class inherit from parent inforce to have all methods
+Deconstructor
+Threads
+Prefetch and select related
+Queryset 
+Data migration
+Py testing
+Git hub
+Deployment
+Middleware
+Binary lock
+Python
+what is global interpreter lock
+what is multi threading
+how data is shared between threads
+which class that not allowed to create Object
+hash maps
+distructor in python class
+memory management in python
+time complexity if index base search in list
+how you optimize your python code.
+context controller in python
+advantages of generator
+relative import and absolute import
+
+Django 
+what are middlewares
+what are decorator
+what are serializers.
+select related vs prefetch related
+how multilingual in django
+cache in django
+how to write custom commands in django like migrate
+multi database management in django
+how to deploy a django project
+what are pytest fixeture advantages of fixture
+mock and method patch difference
+
+Database
+disadvantage of indexing
+database sharding & partioning
+scan of table of millions of records how you write where clause
+
+write a method to find a second max number of positive integers list witout sorting?
+///////////////////////////////////////////////////////////////////////////
+BairesDev
+
+Interview Questions
+What are the common built-in data structures in Python and what is the syntax for each?  1 Answer
+What are "comprehensions" in Python and what kinds are there?  1 Answer
+What is continuous integration?  Answer Question
+What is continuous delivery?  Answer Question
+What's a metaclass?  Answer Question
+What's the difference between overloading and overriding?  1 Answer
+What are magic methods in Python and what are they used for?  1 Answer
+In SQL what is the difference between UNION and JOIN?  Answer Question
+Have you ever used a unit testing framework?  Answer Question
+Have you ever used a version control tool?  Answer Question
+What is the difference between a class and an object?  Answer Question
