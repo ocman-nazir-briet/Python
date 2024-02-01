@@ -1,9 +1,47 @@
-show DATABASE;
+show databases;
+create database Flow;
+use flow;
+show tables;
 
-CREATE DATABASE flow
+-- Custoemrs 
+create table Customer(
+id INT  auto_increment primary key,
+name varchar(255) not null,
+email varchar(255) not null
+);
 
-use DATABASE flow;
 
+insert into Customer(id, name, email, phone) values
+(3, 'usman', 'usmannazirbareet@gmail.com', ''),
+(4, 'ocman', 'unazir@hswsupply.com', '132465798');
+
+select * from Customer;
+alter table Customer add phone varchar(15);
+alter table Customer add address varchar(1000) default 'Pak';
+alter table Customer drop column address;
+
+select * from Customer where name like "__man";
+
+
+-- orders
+create table Orders(
+id int auto_increment Primary key,
+price int,
+customer int,
+Foreign key (customer) References Customer(id)
+);
+
+select * from Orders;
+
+
+
+
+
+-- All commands --
+
+show DATABASES;
+CREATE DATABASE flow;
+use flow;
 DROP TABLE IF EXISTS Customer;
 
 CREATE TABLE Customer(
@@ -22,8 +60,6 @@ INSERT INTO Customer (id, first_name, last_name, email, phone) VALUES
 
 
 SELECT * FROM Customer;
-
-
 DROP TABLE if exists Orders;
 CREATE TABLE Orders (
     id INT PRIMARY KEY,
@@ -37,11 +73,10 @@ CREATE TABLE Orders (
 INSERT INTO Orders(id, price, unit, customer_id) VALUES
 (1,420, 'US $', 1),
 (2,540, 'US $', 2),
-(3,250, 'US $', 2)
+(3,250, 'US $', 2);
 
 
-
--- Joins --
+-- Joins 
 SELECT Orders.id, Orders.price, Orders.unit, Customer.first_name, Customer.last_name
 FROM Orders
 INNER JOIN Customer ON Orders.customer_id = Customer.id;

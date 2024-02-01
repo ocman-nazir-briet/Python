@@ -1,9 +1,9 @@
 Ssl, tcp, dcp, http, https, http1, 2,3, ports, web sockets
 Csrf token vs session csrf use in api
-Casha
+Cache
 Mvt structure which is better mvt mvc
 Memory management
-Corn
+Cron job
 Deployment method
 Web servers and application servers (nginx)
 Docker
@@ -26,6 +26,7 @@ Google Library
 Appachi office 
 Clickup
 /////////////////////////////////////////////////////////////////////////////
+Python
 Lamda
 Multiple treads
 Decorator
