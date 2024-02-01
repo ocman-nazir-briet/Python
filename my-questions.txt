@@ -1,0 +1,28 @@
+Django:
+------------------------------
+ASGI vs WSGI
+prefetech and select related
+custom middlewares
+custom decorators
+db indexing
+db transactions
+annotate vs aggregate
+custom management commands
+Request Response Cycle
+Signals
+Why to serialize data
+Global Queryset
+Delete in Presave/Post-save
+
+Python:
+------------------------------
+Sorting in Python
+Function Overload
+Function Over-riding
+Recursion
+Lambda Function and why?
+Diamond Problem in OOP
+Generators in Python/Django
+
+Nginx and Gunicorn, Web Server
+MySQL/PostgreSQL

@@ -14,7 +14,7 @@ class Person:
     @classmethod
     def change_school(cls, new_school):
         cls.school = new_school
-        print("***")
+        print("Chnage School from Person ***")
 
     @property
     def is_adult(self):
@@ -64,7 +64,7 @@ class Student(Person):
     @classmethod
     def change_school(cls, new_school):
         cls.school = new_school
-        print("---")
+        print("Chnage School from Student---")
 
         
 
