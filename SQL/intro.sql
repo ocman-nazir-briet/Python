@@ -103,7 +103,7 @@ CROSS JOIN Customer;
 
 
 -- DataBase Normalization
--- To reduce the redundency in daata of database tables and to optimize it.  
+-- To reduce the redundency in data of database tables and to optimize it.  
 
 
 
